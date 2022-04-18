@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mock product landing page</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div id="company-logo">
+          <img id="header-img"
+               src = "https://seeklogo.com/images/N/nuka-cola-logo-53E8D124C4-seeklogo.com.png" 
+               alt="nuka cola logo">
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about-us">About Us</a></li>
+            <li><a class="nav-link" href="#colas">Our Colas</a></li>
+            <li><a class="nav-link" href="#nuka-world">Nuka World</a></li>
+            <li><a class="nav-link" href="#contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="about-us">
+        <h1>About Us</h1>
+        <p> The Nuka-Cola Corporation entered the beverage market in 2044, with the invention of the soft drink by John-Caleb Bradberton after two years of experimentation. </p>
+      </section>
+
+      <section id="colas">
+        <h1>Our Colas</h1>
+        <p> We have a wide selection of colas, from the original Nuka-Cola to the brand new Nuka-Quantum. Here are some of our most popular drinks!</p>
+        <div id="all-products">
+          <div class="product">
+            <h2>Nuka-Cola</h2>
+            <img class="cola-image" src="https://cdna.artstation.com/p/assets/images/images/002/832/312/large/oscar-velasco-nuka-cola-jpeg-01.jpg?1466226471" alt="nuke-cola"><br>
+            <a href="#" class="btnMore"><button>Find out more</button></a>
+         </div>
+
+         <div class="product">
+            <h2>Nuka-Cherry</h2>
+            <img class="cola-image" src="https://p.turbosquid.com/ts-thumb/B4/TzHrAy/WY/1poz/jpg/1633939829/600x600/fit_q87/afadc247b51280ff083ca4bf7eaba4303ebdfbb5/1poz.jpg" alt="nuka-cherry"><br>
+           <a href="#" class="btnMore"><button>Find out more</button></a>
+          </div>
+
+         <div class="product">
+           <h2>Nuka-Cola Dark</h2>
+           <img class="cola-image" src="https://blogs-images.forbes.com/erikkain/files/2018/12/nuka-rum-2.jpg" alt="nuka-cola dark"><br>
+            <a href="#" class="btnMore"><button>Find out more</button></a>
+          </div>
+
+          <div class="product">
+            <h2>Nuka-Cola Quantum</h2>
+            <img class="cola-image" src="https://media.sketchfab.com/models/d7ad9393a68a4ee98a5efcb6e4effb3b/thumbnails/ae929817635c47979ef6514f26f4d121/82483f4cd5e94cfcaa627664d7de2e09.jpeg" alt="nuka-cola quantum"><br>
+            <a href="#" class="btnMore"><button>Find out more</button></a>
+         </div>
+        </div>
+      </section>
+
+      <section id="nuka-world">
+        <h1> Welcome to Nuka World!</h1>
+        <iframe id="video" src="https://www.youtube.com/embed/Gx_joI8zmG0">
+        </iframe><br>
+        <img id="map" src="https://assets.vg247.com/current//2016/08/fallout_4_nuka_world_map.jpg" alt="theme park map">
+      </section>
+
+      <section id="contact-us">
+        <h1>Contact Us</h1>
+        <p> Please send your message below and we will aim to get in touch within 24 hours.</p>
+
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <div class="form-section">
+            <label id="name-label" for="name">Name: </label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Please enter your full name."
+                   required>
+          </div>
+
+          <div class="form-section">
+            <label id="email-label" for="email">Email: </label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   for="email"
+                   placeholder="Please enter your email address."
+                   required>
+          </div>
+
+          <div class="form-section">
+            <label id="message" for="message">Message: </label><br>
+            <textarea name="message" 
+                      rows="3" 
+                      cols="30"
+                      placeholder="Please enter your message here."></textarea>
+          </div>
+
+          <div class="form-section">
+            <input type="submit"
+                   id="submit"
+                   value="Submit">
+          </div>
+        </form>
+
+      </section>
+
+      <footer id="footer">
+      </footer>
+    </div>
+  </body>
+ </html>
