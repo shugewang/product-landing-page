@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  font-family: 'Bebas Neue', cursive;
+}
+
+#header-img{
+  width:15%;
+}
+
+header {
+  position:fixed;
+  top:0;
+  background-color:white;
+  width:100%;
+}
+nav > ul{
+  display:flex;
+  flex-direction:row;
+  list-style-type:none;
+  padding:auto;
+  position:fixed;
+  right:0;
+  top: 0;
+  justify-content:space-around;
+}
+
+nav > ul a{
+  margin:1rem;
+  color:red;
+  font-size:1.5rem;
+}
+nav > ul a:hover{
+  background-color:black;
+}
+@media(max-width:400px) {
+  nav > ul{
+    display:flex;
+    flex-direction:column;
+  }
+}
+
+#about-us{
+  margin-top:8rem;
+}
+h1{
+  font-size:2.5rem;
+}
+
+h2{
+  font-size:1.5rem;
+}
+
+#all-products{
+  display:flex;
+}
+.cola-image{
+  width: 200px;
+}
+
+#video{
+}
+
+#map{
+  width:50%;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  right:0;
+}
